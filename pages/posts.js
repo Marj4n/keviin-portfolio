@@ -5,6 +5,7 @@ import { PostGridItem } from '../components/grid-item'
 
 import thumbJokowi from '../public/images/posts/jokowi.png'
 import thumbTomodachi from '../public/images/posts/TomodachiTumb.png'
+import thumbJepang from '../public/images/posts/jepang.png'
 
 const Works = () => (
   <Layout title="Posts">
@@ -15,6 +16,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <PostGridItem
+            id="jepang-masuk-indonesia"
+            thumbnail={thumbJepang}
+            title="Sejarah Indonesia"
+          >
+            Masuknya Jepang Ke Indonesia
+          </PostGridItem>
         </Section>
       </SimpleGrid>
 
@@ -29,15 +37,16 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <PostGridItem
-          id="tomodachi"
-          thumbnail={thumbTomodachi}
-          title="Tomodachi Company Web Design">
+            id="tomodachi"
+            thumbnail={thumbTomodachi}
+            title="Tomodachi Company Web Design"
+          >
             built with figma
           </PostGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.4}>
+      {/* <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
@@ -55,7 +64,7 @@ const Works = () => (
             apayah ngaps
           </PostGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )
