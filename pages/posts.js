@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 
-import thumbJokowi from '../public/images/posts/jokowi.png'
+// import thumbJokowi from '../public/images/posts/jokowi.png'
 import thumbTomodachi from '../public/images/posts/TomodachiTumb.png'
 import thumbJepang from '../public/images/posts/jepang.png'
 
